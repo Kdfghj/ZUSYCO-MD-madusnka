@@ -19,7 +19,7 @@ module.exports = {
   OWNER_NUMBER: "94704012533",
   SUDO_NUMBERS : "94704012533",
   OWNER_NAME: "『 𝙼𝚁 DAGAYA 』",
-  BOT_NAME : "ＺＵＳＹＣＯ",
+  BOT_NAME : "DAGAYA",
   ZUSYCO_FILE : "ZUSYCO-QR",
   LOGOS: {
     ALIVE: 'https://i.ibb.co/https://www.youtube.com/@NICDagaya',
@@ -28,13 +28,13 @@ module.exports = {
   },
   STOP_SEND : {
         WELCOME_MESSAGE : true,
-        GOODBYE_MESSAGE : false
+        GOODBYE_MESSAGE : true
     },
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
   WORK_TYPE : "public",
   WORK_MODE : "onlygroups",
-  WORK_MODE_MESSAGE_SEND : false,
+  WORK_MODE_MESSAGE_SEND : true,
   CAPTION : '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴢᴜꜱʏᴄᴏ ᴍᴅ ʙᴏᴛ',
   STICKER_PACK : '[ ZUSYCO ]',
   BAD_WORDS : 'fuck,pussy',
@@ -50,11 +50,11 @@ module.exports = {
   READ : {
      ALL_MESSAGES : true,
      ONLY_COMMANDS : false,
-     STATUS : false,
+     STATUS : true,
   },
   BOT_OFFLINE : false,
   INBOX_BLOCK : false,
-  AUTO_REACT : false,
+  AUTO_REACT : true,
   OWNER_REACT : '👻',
   AUTO_BGM : false,
   BGM : {
