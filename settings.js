@@ -28,7 +28,7 @@ module.exports = {
   },
   STOP_SEND : {
         WELCOME_MESSAGE : true,
-        GOODBYE_MESSAGE : teue
+        GOODBYE_MESSAGE : false
     },
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
@@ -50,13 +50,13 @@ module.exports = {
   READ : {
      ALL_MESSAGES : true,
      ONLY_COMMANDS : false,
-     STATUS : treu,
+     STATUS : false,
   },
   BOT_OFFLINE : false,
   INBOX_BLOCK : false,
   AUTO_REACT : false,
   OWNER_REACT : '👻',
-  AUTO_BGM : true,
+  AUTO_BGM : false,
   BGM : {
     "chaio" : "https://github.com/MR-NIMA-X/ZUSYCO-DB/raw/main/media/audios/ZUSYCO-caio.mp3",
     "leo" : "https://github.com/MR-NIMA-X/ZUSYCO-DB/raw/main/media/audios/ZUSYCO-leo.mp3",
